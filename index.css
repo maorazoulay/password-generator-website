@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    background: #1F2937;
+}
+
+#hero{
+    padding: 50px 40px 20px 57px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title{
+    color: white;
+    margin-bottom: 0;
+}
+
+#sub-title{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #10B981;
+    font-family: 'Share Tech', sans-serif;
+    font-size: xxx-large;
+    font-weight: 800;
+}
+
+#sub-sub-title{
+    color: #D5D4D8;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    font-weight: normal;
+}
+
+#pass-btn {
+    padding: 9px 17px 9px 15px;
+    width: 191px;
+    height: 42px;
+    background: #10B981;
+    border-radius: 6px;
+    margin-bottom: 0px;
+}
+
+#pass-btn:hover {
+    cursor: pointer;
+}
+
+hr{
+    color: #1F2937;
+    width: 446px;
+    height: 0x;
+    border: 1px solid #2F3E53;
+}
+
+#pass-div{
+    display: flex;
+    justify-content: center;
+}
+
+.pass-ctn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+    margin: 20px 12px;
+    font-family: 'Trebuchet MS',sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #55F991;
+}
+
+.pass-ctn:hover{
+    cursor: copy;
+}
+
+#tooltip{
+    background: #273549;
+    color: #55F991;
+    width: 150px;
+    height: 30px;
+    margin: 10px auto;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: large;
+    opacity: 0;
+}
+
+#tooltip.change{
+    animation: fade 3s linear;
+}
+
+@keyframes fade {
+    0%,100% { opacity: 0 }
+    50% { opacity: 1 }
+}
+
