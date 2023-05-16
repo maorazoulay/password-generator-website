@@ -9,8 +9,6 @@
   </a>
 </p>
 
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-
 <p>> <b>Generate Random 12-character passwords, click on any box to copy the fresh password to your clipboard.</b></p>
 
 ### 🏠 [Homepage](https://password-generator-all-chars.netlify.app)
@@ -32,8 +30,6 @@ npm run start
 ## Author
 
 👤 **Maor Azoulay**
-
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="maorazoulay" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/maorazoulay?trk=profile-badge">Maor Azoulay</a></div>
 
 * Twitter: [@maor\_azoulay](https://twitter.com/maor\_azoulay)
 * LinkedIn: [@maorazoulay](https://linkedin.com/in/maorazoulay)
